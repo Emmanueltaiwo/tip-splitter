@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(36, 36, 255);
+}
+
+.container {
+    color: #fff;
+    width:70vh;
+    height: 50vh;
+    background: rgb(24, 24, 164);
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 50px;
+    box-shadow:  10px 30px 34px #3861e7,
+             -5px -5px 14px #050329;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:  10px 10px 34px #c6d8fc,
+             -0px -0px 14px #9fcaff;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 25vh;
+    height: 3vh;
+    font-weight: bold;
+}
+
+button {
+    width: 15vh;
+    height: 5vh;
+    background: #3861e7;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out all;
+}
+
+button:active {
+    background: #050329;
+    color: #fff;
+}
